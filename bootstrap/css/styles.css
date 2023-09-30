@@ -1,0 +1,59 @@
+.cuerpo {
+    background-color: #F5F5DC;
+}
+.navbar{
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+   
+    overflow: hidden;
+    font-family: Voga;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    
+.logotipo {
+    max-width: 150px;
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: font-size 0.5s;
+    
+
+}
+
+.link:hover {
+    font-size: 75%;
+    /* Tamaño de fuente al pasar el mouse */
+    color:#FEE702;
+
+}
+
+
+.lista {
+    display: inline;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('fonts/Voga.otf') format('otf'),
+        url('fonts/Voga.otf') format('otf');
+}
