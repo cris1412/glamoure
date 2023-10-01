@@ -6,27 +6,145 @@
         <title>Glamoure
         </title>
 
-        <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
-        <script src="bootstrap\js\bootstrap.bundle.js"></script>
         <link rel="stylesheet" href="bootstrap\css\styles.css">
-        <link rel="stylesheet" href="bootstrap\js\bootstrap.js">
+        <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     </head>
     <body class="cuerpo">
-        <nav class="navbar mx-auto d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <!-- navbar -->
+        <div class="navbar">
+        <nav
+            class="navbar">
+            <ul>
+                <li class="lista"><a class="link" href="#">Inicio</a></li>
+                <li class="lista"><a class="link"
+                        href="views/template/agendar.html">Agendar cita</a></li>
+                <li class="lista"><a href="#"><img
+                            class="logotipo"
+                            src="images/ESTETICA.png"
+                            alt="logotipo-estetica"></a></li>
+                <li class="lista"><a class="link"
+                        href="views/template/contacto.html">Contacto</a></li>
+                <li class="lista"><a class="link"
+                        href="views/template/info.html">Sobre
+                        nosotros</a></li>
+            </ul>
+        </nav>
+    </div>
+        <!-- carrusel -->
+        <div class="contenedor">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/oferta1.jpg"
+                            class="img-fluid w-100 h-40px" alt="oferta1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/oferta2.jpg"
+                            class="img-fluid w-100 h-40" alt="oferta2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/oferta3.jpg"
+                            class="img-fluid w-100 h-40" alt="oferta3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container">
+<div class="row">
+<div class="col-4"> 
+    <h1 class="titulos">Ofertas</h1></div>
+</div>
+            </div>
+            <div class="container">
+                <div class="row">
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="images/oferta1.jpg" class="img" alt="Avatar" style="width:100%">                          
+                              </div>
+                         </div>
+                         <div class="col-4">
+                            <div class="card">
+                                <img src="images/oferta1.jpg" alt="Avatar" style="width:100%">                          
+                              </div>
+                         </div>
+                         <div class="col-4">
+                            <div class="card">
+                                <img src="images/oferta1.jpg" alt="Avatar" style="width:100%">                          
+                              </div>
+                         </div>
+                    </div>
+                </div>
 
-                            <ul>
-                                <li class="lista"><a class="link" href="#">Inicio</a></li>
-                                <li class="lista"><a class="link" href="#">Agendar cita</a></li>
-                                <li class="lista"><a class="link" href="#"><img
-                                            class="logotipo"
-                                            src="images/ESTETICA.png"
-                                            alt="logotipo-estetica"></a></li>
-                                <li class="lista"><a class="link" href="#">Contacto</a></li>
-                                <li class="lista"><a class="link" href="#">Sobre
-                                        nosotros</a></li>
-                            </ul>
-                        </nav>
-                  
-          
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                <div class="col-4"> 
+                    <h1 class="titulos">Colaboradores</h1></div>
+                </div>
+                 </div>
+                 <div class="container">
+                    <div class="row">
+                            <div class="col-4">
+                                <div class="card2">
+                                    <img src="images/estilista1.jpg" class="img2" alt="Avatar" style="width:100%">                          
+                                  </div>
+                            
+                             <div class="container">
+                                <h4><b>Roxxane Richie</b></h4>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                             </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card2">
+                                    <img src="images/estilista2.jpg" class="img2" alt="Avatar" style="width:100%">                          
+                                  </div>
+                            
+                             <div class="container">
+                                <h4><b>Evan Petters</b></h4>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                             </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card2">
+                                    <img src="images/estilista3.jpg" class="img2" alt="Avatar" style="width:100%">                          
+                                  </div>
+                            
+                             <div class="container">
+                                <h4><b>Jose Eliberto</b></h4>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+        </div>
+
     </body>
 </html>
