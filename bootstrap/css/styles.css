@@ -121,19 +121,26 @@
   border-radius: 5px;
   /* 5px rounded corners */
 }
-
-/* Add rounded corners to the top left and the top right corner of the image */
+.modal-contenido{
+background: rgba(255, 255, 255, 0.41);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.1px);
+-webkit-backdrop-filter: blur(6.1px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* añade bordes redondeados a la imagen */
 .img {
   border-radius: 5px 5px 0 0;
   cursor: pointer;
 }
 
-/* On mouse-over, add a deeper shadow */
+/* iluminacion al pasar el mouse */
 .card:hover {
   box-shadow: 10px 10px 0px 0 #00986C;
 }
 
-/* Add some padding inside the card container */
+/* añade algo de relleno al contenedor */
 .container {
   padding: 2px 16px;
 }

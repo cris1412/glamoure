@@ -107,12 +107,9 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Abrir Modal
-                    </button>
-                
+                                 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -123,6 +120,45 @@
                                     <!-- Imagen en el centro del modal -->
                                     <img src="images/oferta1.jpg" alt="Imagen" class="img-fluid">
                                 </div>
+                                <h6 class="modal-title" id="exampleModalLabel">Descripción</h6>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                           <!-- Modal 2-->
+                           <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Oferta 2</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                        <!-- Imagen en el centro del modal -->
+                                        <img src="images/oferta2.jpg" alt="Imagen" class="img-fluid">
+                                    </div>
+                                    <h6 class="modal-title" id="exampleModalLabel">Descripción</h6>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                               <!-- Modal 3-->
+                    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Oferta 3</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <!-- Imagen en el centro del modal -->
+                                    <img src="images/oferta3.jpg" alt="Imagen" class="img-fluid">
+                                </div>
+                                <h6 class="modal-title" id="exampleModalLabel">Descripción</h6>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                                 </div>
@@ -131,17 +167,18 @@
                     </div>
                         <div class="col-4">
                             <div class="card">
-                                <img src="images/oferta1.jpg" class="img" alt="Avatar" style="width:100%">                          
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modal1"><img src="images/oferta1.jpg" class="img" alt="Avatar" style="width:100%">    </a>
+                                                      
                               </div>
                          </div>
                          <div class="col-4">
                             <div class="card">
-                                <img src="images/oferta2.jpg" class="img" alt="Avatar" style="width:100%">                          
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modal2"><img src="images/oferta2.jpg" class="img" alt="Avatar" style="width:100%">    </a>                        
                               </div>
                          </div>
                          <div class="col-4">
                             <div class="card">
-                                <img src="images/oferta3.jpg" class="img" alt="Avatar" style="width:100%">                          
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#modal3"><img src="images/oferta1.jpg" class="img" alt="Avatar" style="width:100%">    </a>                       
                               </div>
                          </div>
                     </div>
