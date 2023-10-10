@@ -6,6 +6,9 @@
 
 .menu {
   background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-ul {
@@ -13,6 +16,7 @@
   display: flex;
   justify-content: center;
   list-style: none;
+  
 }
 
 .menu-li {
@@ -21,6 +25,7 @@
   font-size: 5vh;
   color: #F5F5DC;
   font-family: Voga;
+  
 }
 
 .menu-a {
@@ -39,6 +44,10 @@
 }
 
 .navbar-contenedor {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
   top: 0;
   width: 100%;
   position: sticky;
@@ -234,49 +243,55 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Ajusta el tamaño para resoluciones debajo de x pixeles */
-@media only screen and (max-width: 744px) {
+@media only screen and (min-width: 992px) {
+  .logotipo2 {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .menu-ul {
+    
+    height: 10vh;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .menu-li {
+    
+    padding: 1vh;
+    text-decoration: none;
+    font-size: 5vh;
+    color: #F5F5DC;
+    font-family: Voga;
+  }
+
   .logotipo {
+    max-width: 20vh;
+    display: inline;
+    margin: 0 auto;
+    user-select: none;
+
+  }
+
+}
+@media (min-width: 0px) and (max-width: 991px) {
+  .logotipo2 {
+
+    display: inline;
+    margin: 0 auto;
+    user-select: none;
+    width: 20vh;
+    height: 10vh;
+
+  }
+  .logotipo {
+
     display: none;
     margin: 0 auto;
     user-select: none;
     width: 20vh;
     height: 10vh;
-  }
-
-  .menu-ul {
-    height: 10vh;
-    flex-direction: row;
-    text-align: left;
-  }
-
-  .menu-li {
-    padding: 1vh;
-    text-decoration: none;
-    font-size: 5vh;
-    color: #F5F5DC;
-    font-family: Voga;
-  }
-
-  .logotipo {
-    max-width: 20vh;
-    display: inline;
-    margin: 0 auto;
-    user-select: none;
-
-  }
-
-}
-
-
-/* Ajusta el tamaño para resoluciones debajo de x pixeles */
-@media only screen and (max-width: 745px) {
-  .logotipo {
-
-    display: inline;
-    margin: 0 auto;
-    user-select: none;
-    width: 20vh;
-    height: 10vh;
 
   }
 
@@ -294,12 +309,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-family: Voga;
   }
 
-  .logotipo {
-    max-width: 20vh;
-    display: inline;
-    margin: 0 auto;
-    user-select: none;
 
-  }
 
 }
+
+
