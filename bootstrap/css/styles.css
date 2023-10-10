@@ -44,7 +44,7 @@
 }
 
 .navbar-contenedor {
-  background-color: #000000;
+   background-color: #000000;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -178,7 +178,12 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 .titulos {
   font-family: Voga;
-  font-size: 15vh;
+  font-size: 10vh;
+
+}
+.h2-subtitulos {
+  font-family: Voga;
+  font-size: 5vh;
 
 }
 
