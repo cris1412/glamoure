@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Glamoure
+        </title>
+
+        <link rel="stylesheet" href="bootstrap\css\styles.css">
+        <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/js/jquery-3.7.1.min.js"></script>
+       
+        <script src="bootstrap/js/popper.min.js"></script>
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <script src="bootstrap/js/scripts.js"></script>
+        <script>
+            $(document).ready(function () {
+              // Maneja el clic en los elementos del menú
+              $(".menu-a").click(function () {
+                // Cierra el navbar al hacer clic en un elemento del menú
+                $(".navbar-collapse").collapse("hide");
+              });
+            });
+          </script>
+          <script>
+          function mostrarModal1() {
+            var modal = document.getElementById("modal1");
+            modal.classList.add("mostrar");
+          }
+          
+          function cerrarModal1() {
+            var modal = document.getElementById("modal1");
+            modal.classList.remove("mostrar");
+          }     
+          </script>
+     
+       
+    </head>
+    <body class="cuerpo">
+    
+        <div class="navbar-contenedor">
+<nav class="navbar navbar-expand-lg navbar-dark bg-#000000">
+    <a class="navbar-brand my-brand" href="#"><img class="logotipo2" src="images/ESTETICA.png" alt="logotipo-estetica"></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="menu-li"><a class="menu-a" href="index.html">Inicio</a></li>
+        <li class="menu-li"><a class="menu-a" href="agendar.html">Agendar Cita</a></li>
+        <li class="menu-li"><a class="menu-a" href="#"><img class="logotipo" src="images/ESTETICA.png" alt=""></a></li>
+        <li class="menu-li"><a class="menu-a" href="contacto.html">Contacto</a></li>
+        <li class="menu-li"><a class="menu-a" href="info.html">Sobre Nosotros</a></li>
+        <!-- Agrega más elementos de navegación según sea necesario -->
+      </ul>
+    </div>
+  </nav>
+        </div>
+
+     
+
+
+  
+        <!-- carrusel -->
+      
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4"> 
+                    <h1 class="titulos">Personalizar Cita</h1></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="dropdown">
+                                     
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                                        Seleccionar Colaborador
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                         <a class="dropdown-item disabled" href="#">Action</a> <a class="dropdown-item" href="#">Jeffeson Gutierritos</a> <a class="dropdown-item" href="#">Algo mas</a>
+                                    </div>
+                                </div>
+                                <form role="form">
+                                    <div class="form-group">
+                                         
+                                        <label for="exampleInputEmail1">
+                                            Email
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" />
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                         
+                                       
+                                    </div>
+                                    <div class="form-group">
+                                         
+                                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                                            Seleccionar Servicio
+                                        </button>
+                                        <p class="help-block">
+                                            Recuerde que la disponibilidad de los colaboradores varía en funcion del servicio seleccionado
+                                        </p>
+                                    </div>
+                                    <div class="checkbox">
+                                         
+                                        <label>
+                                            <input type="checkbox" /> Check me out
+                                        </label>
+                                    </div> 
+                                    <button type="submit" class="btn btn-primary" onclick="mostrarModal1()">
+                                        Agendar Cita
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+
+                    <div id="modal1" class="modal">
+                        <div class="modal-contenido">
+                           <h5 class="modal-titulo" id="exampleModalLabel">ATENCIÓN</h5>                    
+                          <p class="modal-descripcion">Cita agendada con éxito</p>
+                          <img src="images/oferta1.jpg" alt="Imagen" class="img-fluid">
+                          <div class="modal-pie">
+                            <span class="cerrar-modal" onclick="cerrarModal1()">&times;</span>
+                        </div>
+                        </div>                    
+                      </div>                     
+                       
+                    </div>
+                </div>
+
+           
+
+
+           
+        </div>
+
+    </body>
+</html>
