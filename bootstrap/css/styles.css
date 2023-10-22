@@ -195,7 +195,29 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 5vh;
 
 }
+.h3-subtitulos {
+  font-family: Voga;
+  font-size: 4vh;
+flex: 1;
 
+}
+.iconos{
+  padding: 0%;
+
+  max-width: 4vh;
+}
+.texto-icono{
+  display: flex;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+
+}
+.p-texto{
+font-size: 3vh;
+display:inline;
+
+}
 .checked {
   color: orange;
 }.modal {
