@@ -7,6 +7,7 @@ font-family: Voga;
   background-color: #F5F5DC;
   margin: 0;
   padding: 0;
+  
 }
 
 .menu {
@@ -216,6 +217,38 @@ flex: 1;
 .p-texto{
 font-size: 3vh;
 display:inline;
+text-decoration: none;
+color: black;
+}
+/* IMAGENES HISTORIA */
+.img-historia{
+  float: left;
+  margin-right: 20px;
+  padding: 0%;
+border-radius: 10px;
+  max-width: 60vh;
+  transition:0.5s; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.img-historia:hover{
+
+box-shadow: 10px 10px 0px 0#FEE702;
+
+}
+.img-historia2{
+  float: right;
+  margin-right: 20px;
+  padding: 0%;
+border-radius: 10px;
+  max-width: 60vh;
+  transition:0.5s; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.img-historia2:hover{
+
+box-shadow: 10px 10px 0px 0#00986C;
 
 }
 .checked {
