@@ -10,7 +10,10 @@ font-family: Voga;
   padding: 0;
   
 }
-
+.centrar{
+  align-items: center;
+  text-align: center;
+}
 .menu {
   background-color: #000000;
   display: flex;
@@ -59,8 +62,7 @@ font-family: Voga;
   width: 100%;
   position: sticky;
   height: 9vh;
-  margin: 0;
-  padding: 0;
+
   z-index: 1000
 }
 
@@ -183,7 +185,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 .titulos {
   font-family: Voga;
-  font-size: 10vh;
+  font-size: 6vh;
 
 }
 .h2-subtitulos {

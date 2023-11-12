@@ -1,80 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <style>
-            body {
-           cursor: url('images/cursor_2.png'), auto;
-       }
-       </style>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Glamoure
-        </title>
 
-        <link rel="stylesheet" href="bootstrap\css\styles.css">
-        <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css"
-            rel="stylesheet">
-            <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
-         
-        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="bootstrap/js/jquery-3.7.1.min.js"></script>
-        
-        <script>
-            $(document).ready(function () {
-              // Maneja el clic en los elementos del menú
-              $(".menu-a").click(function () {
-                // Cierra el navbar al hacer clic en un elemento del menú
-                $(".navbar-collapse").collapse("hide");
-              });
-            });
-          </script>
-          <script>
-          function mostrarModal1() {
-            var modal = document.getElementById("modal1");
-            modal.classList.add("mostrar");
-          }
-          
-          function cerrarModal1() {
-            var modal = document.getElementById("modal1");
-            modal.classList.remove("mostrar");
-          }     
-          </script>
-                 </script>
-                 <script>
-                 function mostrarModal2() {
-                   var modal = document.getElementById("modal2");
-                   modal.classList.add("mostrar");
-                 }
-                 
-                 function cerrarModal2() {
-                   var modal = document.getElementById("modal2");
-                   modal.classList.remove("mostrar");
-                 }     
-                 </script>
-                        </script>
-                        <script>
-                        function mostrarModal3() {
-                          var modal = document.getElementById("modal3");
-                          modal.classList.add("mostrar");
-                        }
-                        
-                        function cerrarModal3() {
-                          var modal = document.getElementById("modal3");
-                          modal.classList.remove("mostrar");
-                        }     
-                        </script>
-       
-    </head>
-    <body class="cuerpo">    
-        <div class="navbar-contenedor">
-<nav class="navbar navbar-expand-lg navbar-dark bg-#000000">
-    <a class="navbar-brand my-brand" href="#"><img class="logotipo2" src="images/ESTETICA.png" alt="logotipo-estetica"></a>
+<head>
+  <style>
+    body {
+      cursor: url('images/cursor_2.png'), auto;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glamoure
+  </title>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <link rel="stylesheet" href="bootstrap\css\styles.css">
+  <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/jquery-3.7.1.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      // Maneja el clic en los elementos del menú
+      $(".menu-a").click(function () {
+        // Cierra el navbar al hacer clic en un elemento del menú
+        $(".navbar-collapse").collapse("hide");
+      });
+    });
+  </script>
+  <script>
+    function mostrarModal1() {
+      var modal = document.getElementById("modal1");
+      modal.classList.add("mostrar");
+    }
+
+    function cerrarModal1() {
+      var modal = document.getElementById("modal1");
+      modal.classList.remove("mostrar");
+    }     
+  </script>
+  </script>
+  <script>
+    function mostrarModal2() {
+      var modal = document.getElementById("modal2");
+      modal.classList.add("mostrar");
+    }
+
+    function cerrarModal2() {
+      var modal = document.getElementById("modal2");
+      modal.classList.remove("mostrar");
+    }     
+  </script>
+  </script>
+  <script>
+    function mostrarModal3() {
+      var modal = document.getElementById("modal3");
+      modal.classList.add("mostrar");
+    }
+
+    function cerrarModal3() {
+      var modal = document.getElementById("modal3");
+      modal.classList.remove("mostrar");
+    }     
+  </script>
+
+</head>
+
+<body class="cuerpo">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-auto">
+    <a class="navbar-brand my-brand" href="#"><img class="logotipo2" src="images/ESTETICA.png"
+        alt="logotipo-estetica"></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNav">
       <ul class="navbar-nav">
         <li class="menu-li"><a class="menu-a" href="index.html">Inicio</a></li>
         <li class="menu-li"><a class="menu-a" href="agendar.html">Agendar Cita</a></li>
@@ -85,218 +88,201 @@
       </ul>
     </div>
   </nav>
+
+
+  <!-- carrusel -->
+  <div class="contenedor">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/OFERTA_1.jpg" class="img-fluid w-100" alt="oferta1">
         </div>
-        <!-- carrusel -->
-        <div class="contenedor">
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/OFERTA_1.jpg"
-                            class="img-fluid w-100" alt="oferta1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/OFERTA_2.jpg"
-                            class="img-fluid w-100 h-40" alt="oferta2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/OFERTA_3.jpg"
-                            class="img-fluid w-100 h-40" alt="oferta3">
-                    </div>
-                </div>
-                
-                <button class="carousel-control-prev" type="button"
-                    data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button"
-                    data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
-            </div>
+        <div class="carousel-item">
+          <img src="images/OFERTA_2.jpg" class="img-fluid w-100 h-40" alt="oferta2">
         </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-4"> 
-                    <h1 class="titulos">Ofertas</h1></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                                 
-                    <!-- Modal -->
-
-                    <div id="modal1" class="modal">
-                        <div class="modal-contenido">
-                           <h5 class="modal-titulo" id="exampleModalLabel">Oferta 1</h5>                    
-                          <p class="modal-descripcion">Aquí va el contenido de la oferta.</p>
-                          <img src="images/oferta1.jpg" alt="Imagen" class="img-fluid">
-                          <div class="modal-pie">
-                            <span class="cerrar-modal" onclick="cerrarModal1()">&times;</span>
-                        </div>
-                        </div>                    
-                      </div>
-                      
-                      <div id="modal2" class="modal">
-                        <div class="modal-contenido">
-                           <h5 class="modal-titulo" id="exampleModalLabel">Oferta 2</h5>                    
-                          <p class="modal-descripcion">Aquí va el contenido de la oferta numero 2.</p>
-                          <img src="images/oferta2.jpg" alt="Imagen" class="img-fluid">
-                          <div class="modal-pie">
-                            <span class="cerrar-modal" onclick="cerrarModal2()">&times;</span>
-                        </div>
-                        </div>                    
-                      </div>
-                      <div id="modal3" class="modal">
-                        <div class="modal-contenido">
-                           <h5 class="modal-titulo" id="exampleModalLabel">Oferta 3</h5>                    
-                          <p class="modal-descripcion">Peinado moderno para calvos</p>
-                          <img src="images/oferta3.jpg" alt="Imagen" class="img-fluid">
-                          <div class="modal-pie">
-                            <span class="cerrar-modal" onclick="cerrarModal3()">&times;</span>
-                        </div>
-                        </div>                    
-                      </div>
-
-
-                        <div class="col-4">
-                            <div class="card">
-                                <a href="#" onclick="mostrarModal1()"><img src="images/oferta1.jpg" class="img" alt="Avatar" style="width:100%">    </a>
-                                                      
-                              </div>
-                         </div>
-                         <div class="col-4">
-                            <div class="card">
-                                <a href="#" onclick="mostrarModal2()"><img src="images/oferta2.jpg" class="img" alt="Avatar" style="width:100%">    </a>                        
-                              </div>
-                         </div>
-                         <div class="col-4">
-                            <div class="card">
-                                 <a href="#" onclick="mostrarModal3()"><img src="images/oferta1.jpg" class="img" alt="Avatar" style="width:100%">    </a>                       
-                              </div>
-                         </div>
-                    </div>
-                </div>
-
-           
-
-
-            <div class="container">
-                <div class="row">
-                <div class="col-4 xs-12"> 
-                    <h1 class="titulos">Colaboradores</h1></div>
-                </div>
-                 </div>
-                 <div class="container">
-                    <div class="row">
-                        <div class="col-2">
-                            <div class="card2">
-                                <img src="images/estilista1.jpg" class="img2" alt="Avatar" style="width:100%">                          
-                              </div>
-                        
-                         <div class="container">
-                            <div class="h2-subtitulos">
-                                <h4><b>Roxxane Richie</b></h4>
-                            </div>
-                           
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                         </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="card2">
-                                <img src="images/estilista2.jpg" class="img2" alt="Avatar" style="width:100%">                          
-                              </div>
-                        
-                         <div class="container">
-                            <div class="h2-subtitulos">
-                                <h4><b>Evan Petters</b></h4>
-                            </div>
-                           
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                         </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="card2">
-                                <img src="images/estilista3.jpg" class="img2" alt="Avatar" style="width:100%">                          
-                              </div>
-                        
-                         <div class="container">
-                            <div class="h2-subtitulos">
-                                <h4><b>José Eliberto</b></h4>
-                            </div>
-                           
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                         </div>
-                        </div>
-                            <div class="col-2">
-                                <div class="card2">
-                                    <img src="images/estilista4.jpg" class="img2" alt="Avatar" style="width:100%">                          
-                                  </div>
-                            
-                             <div class="container">
-                                <div class="h2-subtitulos">
-                                    <h4><b>Luis Javier</b></h4>
-                                </div>
-                               
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                             </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="card2">
-                                    <img src="images/estilista5.jpg" class="img2" alt="Avatar" style="width:100%">                          
-                                  </div>
-                            
-                             <div class="container">
-                                <div class="h2-subtitulos">
-                                    <h4><b>Lina Quintero</b></h4>
-                                </div>
-                               
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                             </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="card2">
-                                    <img src="images/estilista6.jpg" class="img2" alt="Avatar" style="width:100%">                          
-                                  </div>
-                            
-                             <div class="container">
-                                <div class="h2-subtitulos">
-                                    <h4><b>Eva Ferre</b></h4>
-                                </div>
-                                                              
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                             </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                </div>
+        <div class="carousel-item">
+          <img src="images/OFERTA_3.jpg" class="img-fluid w-100 h-40" alt="oferta3">
         </div>
+      </div>
 
-    </body>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <h1 class="titulos">Ofertas</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+
+      <!-- Modal -->
+
+      <div id="modal1" class="modal">
+        <div class="modal-contenido">
+          <h5 class="modal-titulo" id="exampleModalLabel">Oferta 1</h5>
+          <p class="modal-descripcion">Aquí va el contenido de la oferta.</p>
+          <img src="images/oferta1.jpg" alt="Imagen" class="img-fluid">
+          <div class="modal-pie">
+            <span class="cerrar-modal" onclick="cerrarModal1()">&times;</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal2" class="modal">
+        <div class="modal-contenido">
+          <h5 class="modal-titulo" id="exampleModalLabel">Oferta 2</h5>
+          <p class="modal-descripcion">Aquí va el contenido de la oferta numero 2.</p>
+          <img src="images/oferta2.jpg" alt="Imagen" class="img-fluid">
+          <div class="modal-pie">
+            <span class="cerrar-modal" onclick="cerrarModal2()">&times;</span>
+          </div>
+        </div>
+      </div>
+      <div id="modal3" class="modal">
+        <div class="modal-contenido">
+          <h5 class="modal-titulo" id="exampleModalLabel">Oferta 3</h5>
+          <p class="modal-descripcion">Peinado moderno para calvos</p>
+          <img src="images/oferta3.jpg" alt="Imagen" class="img-fluid">
+          <div class="modal-pie">
+            <span class="cerrar-modal" onclick="cerrarModal3()">&times;</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-2 col-md-4">
+        <div class="card">
+          <a href="#" onclick="mostrarModal1()"><img src="images/oferta1.jpg" class="img" alt="Avatar"
+              style="width:100%"> </a>
+
+        </div>
+      </div>
+      <div class="col-xs-2 col-md-4">
+        <div class="card">
+          <a href="#" onclick="mostrarModal2()"><img src="images/oferta2.jpg" class="img" alt="Avatar"
+              style="width:100%"> </a>
+        </div>
+      </div>
+      <div class="col-xs-2 col-md-4">
+        <div class="card">
+          <a href="#" onclick="mostrarModal3()"><img src="images/oferta1.jpg" class="img" alt="Avatar"
+              style="width:100%"> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <h1 class="titulos">Colaboradores</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container centrar">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card2">
+          <img src="images/estilista1.jpg" class="img2" alt="Avatar" style="width:100%">
+        </div>
+        <div class="h2-subtitulos">
+          <h4><b>Roxxane Richie</b></h4>
+        </div>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card2">
+          <img src="images/estilista2.jpg" class="img2" alt="Avatar" style="width:100%">
+        </div>
+        <div class="h2-subtitulos">
+          <h4><b>Evan Petters</b></h4>
+        </div>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card2">
+          <img src="images/estilista3.jpg" class="img2" alt="Avatar" style="width:100%">
+        </div>
+        <div class="h2-subtitulos">
+          <h4><b>José Eliberto</b></h4>
+        </div>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card2">
+          <img src="images/estilista4.jpg" class="img2" alt="Avatar" style="width:100%">
+        </div>
+        <div class="h2-subtitulos">
+          <h4><b>Luis Javier</b></h4>
+        </div>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card2">
+          <img src="images/estilista5.jpg" class="img2" alt="Avatar" style="width:100%">
+        </div>
+        <div class="h2-subtitulos">
+          <h4><b>Lina Quintero</b></h4>
+        </div>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="card2">
+          <img src="images/estilista6.jpg" class="img2" alt="Avatar" style="width:100%">
+        </div>
+        <div class="h2-subtitulos">
+          <h4><b>Eva Ferre</b></h4>
+        </div>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+      </div>
+      <!-- Repite el mismo patrón para los siguientes colaboradores -->
+
+    </div>
+  </div>
+</body>
+
 </html>
