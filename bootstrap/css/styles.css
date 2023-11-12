@@ -422,9 +422,10 @@ align-items: center;
 
 /* Aquí se coloca la fuente de la pagina */
 @font-face {
-  font-family: 'MiFuentePersonalizada';
-  src: url('fonts/Voga.otf') format('otf'),
-    url('fonts/Voga.otf') format('otf');
+  font-family: 'Voga';
+  src: url('../../fonts/Voga.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Ajusta el tamaño para resoluciones debajo de x pixeles */
